@@ -4,8 +4,15 @@ version: 1.1
 author_link: 'http://www.movabletype.org/'
 author_name: 'Six Apart, Ltd.'
 class: 'blog'
-description: <__trans phrase='"Rainier" is a customizable Responsive Web Design theme, designed for blogs. In addition to multi-device viewing support, provided via Media Query (CSS), Movable Type functions make customizing navigational contents as well as image elements, such as logos, headers, very simple.'>
+description: <__trans phrase='__DESCRIPTION'>
 protected: 1
+l10n_lexicon:
+  en_us: l10n_en_us.yaml
+  ja: l10n_ja.yaml
+  nl: l10n_nl.yaml
+  fr: l10n_fr.yaml
+  de: l10n_de.yaml
+  es: l10n_es.yaml  
 thumbnail_file: 'thumb.png'
 thumbnail_file_medium: 'thumb-medium.png'
 thumbnail_file_small: 'thumb-small.png'
