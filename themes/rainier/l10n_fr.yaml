@@ -18,7 +18,7 @@ Newer entries: 'Notes suivantes'
 __VIEW_COMMENT: '[_1] sur <a href="[_2]" title="commentaire complet sur : [_3]">[_3]</a>'
 <a href="[_1]">[_2]</a> - [_3]</a>: '<a href="[_1]">[_2]</a> - [_3]</a>'
 Please paste Zenback script code here.: 'Veuillez coller le code du script Zenback ici'
-__DESCRIPTION: '"Rainier" est un thème "Responsive Web Design" personnalisable, conçu pour les blogs. En plus du support multi-périphériques fourni par Media Query (CSS), les fonctions Movable Type rendent facile la personnalisation d\'éléments de navigation et graphiques comme bannière et logo.'
+__DESCRIPTION: "Rainier est un thème Responsive Web Design personnalisable, conçu pour les blogs. En plus du support multi-périphériques fourni par Media Query (CSS), les fonctions Movable Type rendent facile la personnalisation d'éléments de navigation et graphiques comme bannière et logo."
 About Page: 'Page À propos'
 _ABOUT_PAGE_BODY: '<p>Ceci est un exemple de page "à propos". (Typiquement, une page "à propos" décrit brièvement une personne ou une société.)</p>'
 Example page: 'Page Exemple'
