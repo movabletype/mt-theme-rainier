@@ -1226,8 +1226,9 @@ function mtShowGreeting() {
         }
     }
     el.innerHTML = phrase;
-</mt:IfRegistrationAllowed>
+<mt:Else>
     mtShowCaptcha();
+</mt:IfRegistrationAllowed>
 }
 
 <mt:Ignore>
