@@ -20,7 +20,7 @@ __VIEW_COMMENT: '[_1] から <a href="[_2]" title="[_3] のコメントを見る
 Please paste Zenback script code here.: 'ここに Zenback の Script コードを貼り付けてください。'
 __DESCRIPTION: 'Rainier はレスポンシブ Web デザインを採用したブログテーマです。Media Query (CSS) を利用したマルチデバイス対応に加え、Movable Type の機能を使ってロゴやナビゲーションの内容を簡単にカスタマイズできます。'
 About Page: 'アバウトページ'
-_ABOUT_PAGE_BODY: '<p>このページはアバウトページ (自己紹介や会社概要など、プロフィール用のページ) として利用するウエブページの例です。</p><p>作成したウェブページに <code>@ABOUT_PAGE</code> というタグを設定すると、ページのヘッダ、フッタにあるナビゲーションにリンクが追加されます。</p>'
+_ABOUT_PAGE_BODY: '<p>このページはアバウトページ (自己紹介や会社概要など、プロフィール用のページ) として利用するウェブページの例です。</p><p>作成したウェブページに <code>@ABOUT_PAGE</code> というタグを設定すると、ページのヘッダ、フッタにあるナビゲーションにリンクが追加されます。</p>'
 Example page: 'ウェブページの例'
 _SAMPLE_PAGE_BODY: '<p>このページはウェブページの例です。</p><p>作成したウェブページに <code>@ADD_TO_SITE_NAV</code> というタグを設定すると、ページのヘッダ、フッタにあるナビゲーションにリンクが追加されます。</p>'
 Rainier: 'Rainier'
