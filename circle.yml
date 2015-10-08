@@ -1,0 +1,7 @@
+dependencies:
+  pre:
+    - gem install sass
+
+test:
+  override:
+    - file=$(find . -name "[^_]*.scss" -type f); echo -e "$file"; echo $file | xargs -n1 sass >/dev/null

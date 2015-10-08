@@ -2,7 +2,7 @@
   <div class="widget-content">
     <form method="get" id="search" action="<$mt:CGIPath$><$mt:SearchScript$>">
       <div>
-        <input type="text" name="search" value="<MTIfStatic><mt:IfStraightSearch><$mt:SearchString$></mt:IfStraightSearch></MTIfStatic>" placeholder="<__trans phrase="Search">...">
+        <input type="text" name="search" value="<MTIfStatic><mt:IfStraightSearch><$mt:SearchString escape="html"$></mt:IfStraightSearch></MTIfStatic>" placeholder="<__trans phrase="Search">...">
 <mt:If name="search_results">
         <input type="hidden" name="IncludeBlogs" value="<$mt:SearchIncludeBlogs$>">
 <mt:Else>
