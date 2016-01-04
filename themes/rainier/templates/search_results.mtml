@@ -82,10 +82,10 @@
                 <span id="current-page" class="hidden"><$mt:CurrentPage$></span>
                 <h1 class="title">
       <MTIfStatic><mt:IfStraightSearch>
-                  <__trans phrase="Results matching &ldquo;[_1]&rdquo;" params="<$mt:SearchString escape="html"$>">
+                  <__trans phrase="Results matching &ldquo;[_1]&rdquo;" params="<$mt:SearchString$>">
       </mt:IfStraightSearch></MTIfStatic>
       <mt:IfTagSearch>
-                  <__trans phrase="Results tagged &ldquo;[_1]&rdquo;" params="<$mt:SearchString escape="html"$>">
+                  <__trans phrase="Results tagged &ldquo;[_1]&rdquo;" params="<$mt:SearchString$>">
       </mt:IfTagSearch>
                 </h1>
     </mt:SearchResultsHeader>
@@ -114,13 +114,13 @@
               <section>
                 <h1 class="search-results-header">
   <MTIfStatic><mt:IfStraightSearch>
-                  <__trans phrase="Results matching &ldquo;[_1]&rdquo;" params="<$mt:SearchString escape="html"$>">
+                  <__trans phrase="Results matching &ldquo;[_1]&rdquo;" params="<$mt:SearchString$>">
   </mt:IfStraightSearch></MTIfStatic>
   <mt:IfTagSearch>
-                  <__trans phrase="Results tagged &ldquo;[_1]&rdquo;" params="<$mt:SearchString escape="html"$>">
+                  <__trans phrase="Results tagged &ldquo;[_1]&rdquo;" params="<$mt:SearchString$>">
   </mt:IfTagSearch>
                 </h1>
-                <p><__trans phrase="No results found for &ldquo;[_1]&rdquo;." params="<$mt:SearchString escape="html"$>"></p>
+                <p><__trans phrase="No results found for &ldquo;[_1]&rdquo;." params="<$mt:SearchString$>"></p>
               </section>
 </mt:NoSearchResults>
 
