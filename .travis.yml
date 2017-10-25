@@ -1,0 +1,6 @@
+language: ruby
+
+install: gem install sass
+
+script: file=$(find . -name "[^_]*.scss" -type f); echo -e "$file"; echo $file | xargs -n1 sass --check
+
