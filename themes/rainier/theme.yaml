@@ -121,8 +121,6 @@ elements:
             label: 'Navigation'
           pagination:
             label: 'Pagination'
-          zenback:
-            label: 'Zenback'
           comment_form:
             label: 'Comment Form'
           comment_detail:
