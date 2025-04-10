@@ -1,0 +1,17 @@
+name: movabletype/mt-theme-rainier
+on:
+  push:
+    branches:
+    - "**/*"
+  pull_request:
+concurrency:
+#   # This item has no matching transformer
+#   maximum_number_of_builds: 0
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4.1.0
+    - run: gem install sass
+    - run: file=$(find . -name "[^_]*.scss" -type f); echo -e "$file"; echo $file | xargs -n1 sass --check
