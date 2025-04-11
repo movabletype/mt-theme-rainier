@@ -16,4 +16,4 @@ jobs:
     - name: checkout
       uses: actions/checkout@v4.1.0
     - run: npm install -g sass
-    - run: file=$(find . -name "[^_]*.scss" -type f); echo -e "$file"; echo $file | xargs -n1 sass --check
+    - run: find . -name "[^_]*.scss" -type f | xargs -I {} sh -c 'echo {}; sass --silence-deprecation=global-builtin,slash-div,import,color-functions {} /dev/null'
